@@ -2,5 +2,5 @@ fastapi
 uvicorn[standard]
 httpx
 llm
-llm-openai
+llm-openai-plugin
 python-dotenv

@@ -1,3 +1,30 @@
+import base64
+import re
+
+import httpx
+
+from fastapi import FastAPI, Request
+
+from statistics import (
+    mean,
+    median,
+    mode,
+    pstdev,
+    pvariance,
+)
+from config import config
+from utils import chat, parse_json
+
+
+
+
+app = FastAPI()
+
+
+
+
+
+
 last_debug_info = {}
 
 
